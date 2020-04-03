@@ -1,5 +1,5 @@
 <template>
-    <button><span>Generate</span></button>
+    <div class="button" @click="$emit('generate')"><span>Generate</span></div>
 </template>
 
 <script>
@@ -11,8 +11,10 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped lang="scss">
-  button {
-      display: inline-block;
+  .button {
+      display: flex;
+      justify-content: center;
+      align-items: center;
       border: none;
       width: 150px;
       height: 80px;
