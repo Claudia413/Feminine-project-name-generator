@@ -1,17 +1,16 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <Generator />
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue';
+import Generator from './components/Generator.vue';
 
 export default {
   name: 'App',
   components: {
-    HelloWorld,
+    Generator,
   },
 };
 </script>
@@ -23,6 +22,9 @@ export default {
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
-  margin-top: 60px;
+  margin-top: 0;
+  background: #fff5f2;
+  height: 100vh;
+  padding: 100px;
 }
 </style>
