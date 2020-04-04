@@ -62,6 +62,10 @@ export default {
     align-items: center;
     justify-content: space-between;
     width: 600px;
+    @media screen and (max-width: 768px) {
+      flex-direction: column-reverse;
+      width: 100%;
+    }
   }
   .name {
     border: none;
@@ -87,6 +91,7 @@ export default {
   }
   .relative {
     position: relative;
+    margin: 50px 0;
   }
   .instructions {
     position: absolute;

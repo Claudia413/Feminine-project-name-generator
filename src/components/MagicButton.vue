@@ -9,7 +9,6 @@ export default {
 };
 </script>
 
-<!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped lang="scss">
   .button {
       display: flex;
@@ -23,13 +22,12 @@ export default {
       box-shadow:  8px 8px 16px #d9d0ce,
                   -8px -8px 16px #fcf9f9;
       font-family: 'Raleway', sans-serif;
+      cursor: pointer;
       span {
         display: block;
         font-size: 18px;
         font-weight: bold;
-        background: -webkit-linear-gradient(left top, #FEDB37, #FDB931, #9f7928, #8A6E2F);
         background: -webkit-linear-gradient(left top, #a66251, #fcc1b9, #ac6d5d, #ffd2d2);
-        // background: -webkit-linear-gradient(left top, #ac6943, #fbd1c1, #ab6943, #faf4ed);
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
       }

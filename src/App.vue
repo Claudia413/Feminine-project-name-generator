@@ -33,5 +33,8 @@ export default {
   flex-direction: column;
   justify-content: space-between;
   box-sizing: border-box;
+  @media screen and (max-width: 768px) {
+      padding: 50px;
+    }
 }
 </style>
