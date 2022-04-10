@@ -16,7 +16,7 @@ import MagicButton from './MagicButton.vue';
 import Words from '@/assets/words.json'
 
 export default {
-  name: 'Generator',
+  name: 'GeneratorComponent',
   components: {
     MagicButton,
   },
